@@ -22,7 +22,7 @@ if ( empty( $contacts ) ) {
 <form id="contact-form" method="post" class="p">
 
     <?php if ( count( $contacts ) == 1 ) : // we have only one contact, don't show "To" ?>
-    <input type="hidden" name="to" value="<?php echo md5( array_shift( array_values( $contacts ) ) ); // first and only contact ina rray ?>">
+    <input type="hidden" name="to" value="<?php echo md5( array_shift( array_values( $contacts ) ) ); // first and only contact in array ?>">
     <?php else : // show "To" selector for multiple contacts ?>
     <div class="contact-field">
         <label class="contact-label"><?php _ex( 'To', 'contact form', 'risen' ); ?></label>
