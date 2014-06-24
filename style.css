@@ -1,0 +1,144 @@
+/*
+    Theme Name: Risen Child Theme | Eric Custom
+    Theme URI: http://churchthemes.com/themes/risen
+    Author: Eric Johnson!
+    Author URI: http://twitter.com/wormeyman
+    Description: A child theme for Risen.
+    Copyright: (c) 2012-2014 Grace Community Church
+    Template: risen
+    Version: 2.0.17
+*/
+
+/*
+    To override styles, copy them from the parent theme here, then change the properties.
+    You can also add new styles here. See styles/* for overriding the light and dark base styles.
+    Note: it is not necessary to @import the parent stylesheet here (see docs for more info)
+*/
+
+/* set the churches brown color*/
+#tagline,#intro,#footer-right {
+    color: #615145;
+}
+
+/*Google Calendar Stretch*/
+#GoogleCalendar{
+    width:100%;
+    height:600px;
+}
+
+/*
+ * 480px - Phone, Very Small Tablet or Less
+ */
+
+@media only screen and (max-width: 480px) {
+    #GoogleCalendar{
+    width:280px;
+    height:600px;
+    }
+}
+/* End Google Calendar Stretch*/
+/*Increase font size on the main post content*/
+.post-content{
+    font-size:12pt;
+}
+/*Change HR to be more visible*/
+hr {
+    border-color: #808080;
+}
+/*Change Home page Intro font size to be smaller*/
+#intro {
+    font-size: 1.5em;
+}
+/*Make Nav Items Bigger*/
+@media only screen and (max-width: 640px) {
+    #sidebar-right>aside#simple-section-nav-2.widget>ul>li.page_item{
+        font-size: 24pt;
+        line-height: 24pt;
+        /*padding-top: 10px;*/
+    }
+}
+/*Hide wp-admin at small size*/
+/*
+@media only screen and (max-width: 640px) {
+    #wpadminbar{
+        overflow:hidden;
+    }
+    #wpadminbar>div#wp-toolbar.quicklinks>ul#wp-admin-bar-top-secondary{
+        display:none;
+    }
+    #wp-admin-bar-comments,#wp-admin-bar-82241,#wp-admin-bar-48061,#wp-admin-bar-46405,#wp-admin-bar-1173,#wp-admin-bar-82559,#wp-admin-bar-82560{
+        display:none;
+    }
+}
+*/
+/*Hide Page Banners on Selected Pages*/
+
+.page-id-46410 #page-header h1, /* GCC Classic Car Show */
+.page-id-83147 #page-header h1, /* Church Picnic */
+.page-id-84702 #page-header h1  /* Community Baby Shower */
+{
+    display:none;
+}
+/*Emergency text box!*/
+.grace_emergency_blue   { border:2px solid #05e;    background:#a4c0f4;    padding:10px;    text-align:center;    width:auto;}
+.grace_emergency_green  { border:2px solid #090;    background:#cfc;       padding:10px;    text-align:center;    width:auto;}
+.grace_emergency_orange { border:2px solid #f90;    background:#fc6;       padding:10px;    text-align:center;    width:auto;}
+.grace_emergency_red    { border:2px solid #f00;    background:#f99;       padding:10px;    text-align:center;    width:auto;}
+.grace_emergency_teal   { border:2px solid #50615A; background:#86A398;    padding:10px;    text-align:center;    width:auto;}
+.grace_emergency_yellow { border:2px solid #F0C36D; background:#F9EDBE;    padding:10px;    text-align:center;    width:auto;}
+
+/*Ninja Announcements*/
+.ninja-annc-entry{
+    border:2px solid #50615A;
+    background:#86A398;
+    padding:10px;
+    text-align:center;
+    width:auto;
+}
+/*Elastic Object & Iframe Embedded Videos*/
+/*http://webdesignerwall.com/tutorials/css-elastic-videos*/
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*End Elastic Object & Iframe Embedded Videos*/
+/*Social Font Awesome*/
+/*Header*/
+.gccfa {
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.gccfa:hover {
+    opacity: 1;
+}
+/*Footer*/
+.gccfa-footer {
+    color: #000000;
+    opacity: 0.6;
+}
+.gccfa-footer:hover {
+    opacity: 1;
+}
+/*End Social Font Awesome*/
+/*Snow Alert*/
+.ninja-annc-entry {
+    border:2px solid #05e;
+    background:#a4c0f4;
+    padding:10px;
+    text-align:center;
+    width:auto;
+}
+/*End Snow Alert*/
