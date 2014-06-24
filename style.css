@@ -16,7 +16,9 @@
 */
 
 /* set the churches brown color*/
-#tagline,#intro,#footer-right {
+#tagline,
+#intro,
+#footer-right {
     color: #615145;
 }
 
@@ -80,12 +82,48 @@ hr {
     display:none;
 }
 /*Emergency text box!*/
-.grace_emergency_blue   { border:2px solid #05e;    background:#a4c0f4;    padding:10px;    text-align:center;    width:auto;}
-.grace_emergency_green  { border:2px solid #090;    background:#cfc;       padding:10px;    text-align:center;    width:auto;}
-.grace_emergency_orange { border:2px solid #f90;    background:#fc6;       padding:10px;    text-align:center;    width:auto;}
-.grace_emergency_red    { border:2px solid #f00;    background:#f99;       padding:10px;    text-align:center;    width:auto;}
-.grace_emergency_teal   { border:2px solid #50615A; background:#86A398;    padding:10px;    text-align:center;    width:auto;}
-.grace_emergency_yellow { border:2px solid #F0C36D; background:#F9EDBE;    padding:10px;    text-align:center;    width:auto;}
+.grace_emergency_blue {
+    border: 2px solid #05e;
+    background: #a4c0f4;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+}
+.grace_emergency_green {
+    border: 2px solid #090;
+    background: #cfc;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+}
+.grace_emergency_orange {
+    border: 2px solid #f90;
+    background: #fc6;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+}
+.grace_emergency_red {
+    border: 2px solid #f00;
+    background: #f99;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+}
+.grace_emergency_teal {
+    border: 2px solid #50615A;
+    background: #86A398;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+}
+.grace_emergency_yellow {
+    border: 2px solid #F0C36D;
+    background: #F9EDBE;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+}
 
 /*Ninja Announcements*/
 .ninja-annc-entry{
