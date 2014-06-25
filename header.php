@@ -47,7 +47,9 @@ Y88b  d88P 888    888  888 Y88b.   Y8b.      888   888  888  d8888888888 Y88b 88
 </head>
 
 <body <?php body_class(); ?>>
-
+    <!-- Start Google Tracking Code -->
+    <?php include_once("analyticstracking.php") ?>
+    <!-- End Google Tracking Code -->
     <!-- Container Start -->
 
     <div id="container">
