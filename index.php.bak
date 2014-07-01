@@ -40,7 +40,7 @@ get_header();
     <div id="intro">
         <?php if (function_exists("ninja_annc_display")) { ninja_annc_display(82985); } ?>
     <?php if (function_exists("ninja_annc_display")) { ninja_annc_display(83249); } ?>
-        <?php echo force_balance_tags( do_shortcode( risen_option( 'home_intro' ) ) ); // auto-close <b> tag to prevent messing up whole page ?>
+        <?php echo force_balance_tags( do_shortcode( risen_option( 'home_intro' ) ) ); // auto-close <b> tag to rpevent messing up whole page ?>
     </div>
     <?php endif; ?>
 
