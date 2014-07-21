@@ -65,7 +65,7 @@ get_header();
 
             </li>
             <li>
-                <strong>Start over again</strong> at my <a href="<?php bloginfo('siteurl');?>">homepage</a> (and please contact me to say what went wrong, so I can fix it).
+                <strong>Start over again</strong> at the <a href="<?php bloginfo('siteurl');?>">homepage</a> (and please contact us to say what went wrong, so we can fix it).
             </li>
         </ol>
 
