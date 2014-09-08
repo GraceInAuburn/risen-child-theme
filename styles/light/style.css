@@ -12,3 +12,14 @@ Or, create a totally new style by making a new folder in the child theme's 'styl
 It will show up in Theme Options for you to select.
 You can copy and rename the Light or Dark styles from the parent theme to use as a starting point.
 */
+
+
+/* force dark or white text */
+
+    a.button.button-text-white {
+        height: auto;
+    }
+
+    a.button.button-text-black {
+        height: auto;
+    }
