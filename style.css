@@ -16,50 +16,56 @@
 */
 
 /* set the churches brown color*/
+
 #tagline,
 #intro,
 #footer-right {
     color: #615145;
 }
-
 /*Google Calendar Stretch*/
-#GoogleCalendar{
-    width:100%;
-    height:600px;
-}
 
+#GoogleCalendar {
+    width: 100%;
+    height: 600px;
+}
 /*
  * 480px - Phone, Very Small Tablet or Less
  */
 
 @media only screen and (max-width: 480px) {
-    #GoogleCalendar{
-    width:280px;
-    height:600px;
+    #GoogleCalendar {
+        width: 280px;
+        height: 600px;
     }
 }
 /* End Google Calendar Stretch*/
+
 /*Increase font size on the main post content*/
-.post-content{
-    font-size:12pt;
+
+.post-content {
+    font-size: 12pt;
 }
 /*Change HR to be more visible*/
+
 hr {
     border-color: #808080;
 }
 /*Change Home page Intro font size to be smaller*/
+
 #intro {
     font-size: 1.5em;
 }
 /*Make Nav Items Bigger*/
+
 @media only screen and (max-width: 640px) {
-    #sidebar-right>aside#simple-section-nav-2.widget>ul>li.page_item{
+    #sidebar-right>aside#simple-section-nav-2.widget>ul>li.page_item {
         font-size: 24pt;
         line-height: 24pt;
         /*padding-top: 10px;*/
     }
 }
 /*Hide wp-admin at small size*/
+
 /*
 @media only screen and (max-width: 640px) {
     #wpadminbar{
@@ -73,16 +79,26 @@ hr {
     }
 }
 */
+
 /*Hide Page Banners on Selected Pages*/
 
-.page-id-46410 #page-header h1, /* GCC Classic Car Show */
-.page-id-84 #page-header h1, /* College Group Page */
-.page-id-83147 #page-header h1, /* Church Picnic */
-.page-id-84702 #page-header h1  /* Community Baby Shower */
+.page-id-46410 #page-header h1,
+/* GCC Classic Car Show */
+
+.page-id-84 #page-header h1,
+/* College Group Page */
+
+.page-id-83147 #page-header h1,
+/* Church Picnic */
+
+.page-id-84702 #page-header h1
+/* Community Baby Shower */
+
 {
-    display:none;
+    display: none;
 }
 /*Emergency text box!*/
+
 .grace_emergency_blue {
     border: 2px solid #05e;
     background: #a4c0f4;
@@ -125,17 +141,19 @@ hr {
     text-align: center;
     width: auto;
 }
-
 /*Ninja Announcements*/
-.ninja-annc-entry{
-    border:2px solid #50615A;
-    background:#86A398;
-    padding:10px;
-    text-align:center;
-    width:auto;
+
+.ninja-annc-entry {
+    border: 2px solid #50615A;
+    background: #86A398;
+    padding: 10px;
+    text-align: center;
+    width: auto;
 }
 /*Elastic Object & Iframe Embedded Videos*/
+
 /*http://webdesignerwall.com/tutorials/css-elastic-videos*/
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -143,7 +161,6 @@ hr {
     height: 0;
     overflow: hidden;
 }
-
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -154,8 +171,11 @@ hr {
     height: 100%;
 }
 /*End Elastic Object & Iframe Embedded Videos*/
+
 /*Social Font Awesome*/
+
 /*Header*/
+
 .gccfa {
     color: #FFFFFF;
     opacity: 0.6;
@@ -164,6 +184,7 @@ hr {
     opacity: 1;
 }
 /*Footer*/
+
 .gccfa-footer {
     color: #000000;
     opacity: 0.6;
@@ -172,12 +193,14 @@ hr {
     opacity: 1;
 }
 /*End Social Font Awesome*/
+
 /*Snow Alert*/
+
 .ninja-annc-entry {
-    border:2px solid #05e;
-    background:#a4c0f4;
-    padding:10px;
-    text-align:center;
-    width:auto;
+    border: 2px solid #05e;
+    background: #a4c0f4;
+    padding: 10px;
+    text-align: center;
+    width: auto;
 }
 /*End Snow Alert*/
