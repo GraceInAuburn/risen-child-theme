@@ -6,7 +6,7 @@
     Description: A child theme for Risen.
     Copyright: (c) 2012-2014 Grace Community Church
     Template: risen
-    Version: 2.0.21
+    Version: 2.0.22
 */
 
 /*
@@ -81,6 +81,9 @@ hr {
 */
 
 /*Hide Page Banners on Selected Pages*/
+
+.page-id-106 #page-header h1,
+/* Worship and Arts Page */
 
 .page-id-46410 #page-header h1,
 /* GCC Classic Car Show */
