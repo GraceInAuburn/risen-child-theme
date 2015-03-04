@@ -102,7 +102,8 @@ Y88b  d88P 888    888  888 Y88b.   Y8b.      888   888  888  d8888888888 Y88b 88
                                 <div id="top-right-content">
 
                                     <div id="tagline">
-                                            <a href="/aboutus/" style="color:#615145">
+                                        <div class="genericon genericon-location tagline-icon"></div>
+                                            <a href="/contact/" class="tagline-link">
                                                 <?php bloginfo( 'description' ); ?>
                                             </a>
                                     </div>

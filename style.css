@@ -6,7 +6,7 @@
     Description: A child theme for Risen.
     Copyright: (c) 2012-2015 Grace Community Church
     Template: risen
-    Version: 2.0.26
+    Version: 2.0.27
 */
 
 /*
@@ -178,6 +178,17 @@ hr {
 .gccfa:hover {
     opacity: 1;
 }
+
+.tagline-link {
+    color: #615145;
+    vertical-align: middle;
+}
+
+.tagline-icon {
+    font-size: 32px;
+    vertical-align: middle;
+    color: #615145;
+}
 /*Footer*/
 
 .gccfa-footer {
@@ -204,4 +215,8 @@ hr {
 
 blockquote, .quote {
     font-size: 1em;
+}
+
+.tagline-icon {
+
 }
