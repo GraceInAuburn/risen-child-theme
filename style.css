@@ -185,8 +185,8 @@ hr {
 }
 
 .tagline-icon {
-    font-size: 32px;
-    vertical-align: middle;
+    font-size: 32px !important;
+    vertical-align: middle !important;
     color: #615145;
 }
 /*Footer*/
@@ -215,8 +215,4 @@ hr {
 
 blockquote, .quote {
     font-size: 1em;
-}
-
-.tagline-icon {
-
 }
