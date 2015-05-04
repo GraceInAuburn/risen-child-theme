@@ -126,7 +126,7 @@ function toolbar_link_to_home_slider( $wp_admin_bar ) {
     $args = array(
         'id'    => 'home-slider',
         'title' => 'Home Slider',
-        'href'  => 'http://graceinauburn.com/wp-admin/edit.php?post_type=risen_slide',
+        'href'  => '/wp-admin/edit.php?post_type=risen_slide',
         'meta'  => array( 'class' => 'home-slider' )
     );
     $wp_admin_bar->add_node( $args );
