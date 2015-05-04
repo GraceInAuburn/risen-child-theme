@@ -157,3 +157,16 @@ function toolbar_link_to_theme_doc( $wp_admin_bar ) {
 }/*End Custom Menu*/
 /*Set max content width*/
 //if ( ! isset( $content_width ) ) $content_width = 100;
+
+/*Alert on Staging Site*/
+/*http://stackoverflow.com/questions/6522023/php-if-domain*/
+$host = $_SERVER['HTTP_HOST'];
+if ($host === 'graceinauburn.staging.wpengine.com') {
+    function gcc_admin_error_notice() {
+        $class = "error";
+        $message = "You are on the staging site.";
+            echo"<div class=\"$class\"> <p>$message</p></div>";
+    }
+    add_action( 'admin_notices', 'gcc_admin_error_notice' );
+}
+/*End Alert on Staging Site*/
