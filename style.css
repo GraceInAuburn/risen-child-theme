@@ -216,7 +216,7 @@ hr {
 blockquote, .quote {
     font-size: 1em;
 }
-/* State slider size so it dosen't flash in */
+/* State slider size so it doesn't flash in */
 @media only screen and (min-width: 1200px) {
     #slider {
         width: 960px;
