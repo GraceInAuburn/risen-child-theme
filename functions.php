@@ -165,7 +165,7 @@ if ($host === 'graceinauburn.staging.wpengine.com') {
     function gcc_admin_error_notice() {
         $class = "error";
         $message = "You are on the staging site.";
-            echo"<div class=\"$class\"> <p>$message</p></div>";
+            echo"<div class=\"$class\"> <h1>$message</h1></div>";
     }
     add_action( 'admin_notices', 'gcc_admin_error_notice' );
 }
