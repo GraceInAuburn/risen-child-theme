@@ -6,7 +6,7 @@
     Description: A child theme for Risen.
     Copyright: (c) 2012-2015 Grace Community Church
     Template: risen
-    Version: 2.0.32
+    Version: 2.0.33
 */
 
 /*
@@ -94,8 +94,11 @@ hr {
 .page-id-83147 #page-header h1,
 /* Church Picnic */
 
-.page-id-84702 #page-header h1
+.page-id-84702 #page-header h1,
 /* Community Baby Shower */
+
+.page-id-86574 #page-header h1
+/* rightnow MEDIA */
 
 {
     display: none;
